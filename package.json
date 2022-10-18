@@ -1,8 +1,8 @@
 {
   "name": "u-develop-it",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Back-end APIs for voting app.",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "start": "node server.js"

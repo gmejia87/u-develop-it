@@ -4,7 +4,7 @@ const express = require("express");
 const router = express.Router();
 //import db connection
 const db = require("../../db/connection");
-//import inputcheck (moved out completely from server.js now here & candidateRoutes)
+//import inputcheck (moved out completely from server.js now here, candidateRoutes & voteRoutes)
 const inputCheck = require("../../utils/inputCheck");
 
 //GET voter route
